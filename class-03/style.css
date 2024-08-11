@@ -1,0 +1,68 @@
+    /* Apply different filters to each image */
+    #image_01:hover {
+        filter: grayscale(100%);
+    }
+
+    #image_02:hover {
+        filter: sepia(100%);
+    }
+
+    #image_03:hover {
+        filter: invert(100%);
+    }
+
+    #image_04:hover {
+        filter: brightness(50%);
+    }
+
+    #image_05:hover {
+        filter: contrast(200%);
+    }
+
+    #image_06:hover {
+        filter: hue-rotate(90deg);
+    }
+
+    #image_07:hover {
+        filter: blur(5px);
+    }
+
+    #image_08:hover {
+        filter: saturate(200%);
+    }
+
+    #image_09:hover {
+        filter: opacity(50%);
+    }
+
+    #image_10 {
+        filter: drop-shadow(10px 10px 5px gray);
+    }
+
+    #image_11:hover {
+        filter: none;
+    }
+
+    #image_12:hover {
+        filter: grayscale(50%) contrast(150%);
+    }
+
+    #image_13:hover {
+        filter: sepia(50%) brightness(75%);
+    }
+
+    #image_14:hover {
+        filter: invert(50%) hue-rotate(45deg);
+    }
+
+    #image_15:hover {
+        filter: brightness(75%) blur(2px);
+    }
+
+    #image_16:hover {
+        filter: contrast(125%) saturate(150%);
+    }
+
+    #image_17:hover {
+        filter: opacity(75%) drop-shadow(5px 5px 3px black);
+    }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Register Now</h2>
+    <form action="">
+        <div>
+            <label for="fullName">Enter your full name</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="e.g. Dwip Sarker" required><br>
+            <small style="color:red;">Invalid first name</small>
+        </div>
+        <br>
+        <div>
+            <label for="email">Enter your email.</label><br>
+            <input type="email" id="email" name="email" placeholder="e.g. example@company.com" required><br>
+            <small style="color:red;">Invalid email address</small>
+        </div>
+        <br>
+        <div>
+            <label for="password">Enter your password.</label><br>
+            <input type="password" id="password" name="password" placeholder="●●●●●●●●" required><br>
+            <small style="color:red;">Password must be 8 characters long.</small>
+        </div>
+        <br>
+        <div>
+            <label for="confirmPassword">Enter confirm password.</label><br>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="●●●●●●●●" required><br>
+            <small style="color:red;">Password not matched.</small>
+        </div>
+        <br>
+        <div>
+            <input type="radio" id="diploma" name="education" value="diploma" checked>
+            <label for="diploma">Diploma</label><br>
+            <input type="radio" id="bachelor" name="education" value="bachelor">
+            <label for="bachelor">Bachelor's Degree</label><br>
+            <input type="radio" id="master" name="education" value="master">
+            <label for="master">Master's Degree</label><br>
+            <input type="radio" id="phd" name="education" value="phd">
+            <label for="phd">PhD</label>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

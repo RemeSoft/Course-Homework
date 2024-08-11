@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "diploma";
+    src: url("fonts/diploma.ttf");
+}
+
+@font-face {
+    font-family: "typewritter";
+    src: url("fonts/typewritter.otf");
+}
+
+:root {
+    --color-primary: #361808;
+    --color-boarder: #6125009a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    color: var(--color-primary);
+}
+
+.page {
+    width: 1000px;
+    margin: auto;
+    background: url(images/texture.jpg);
+    background-size: cover;
+    padding: 10px 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .title {
+    font-family: diploma;
+    font-size: 70px;
+}
+
+header div {
+    text-align: center;
+    max-width: 200px;
+    border: 2px solid var(--color-boarder);
+    font-family: typewritter;
+    padding: 10px;
+}
+
+header div h3 {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+header div p {
+    font-size: 8px;
+}
+
+.border {
+    display: flex;
+    justify-content: space-between;
+    font-family: typewritter;
+    font-weight: bold;
+    border-top: 4px solid var(--color-boarder);
+    border-bottom: 4px solid var(--color-boarder);
+    margin-top: 10px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    text-align: justify;
+    gap: 10px;
+    font-family: typewritter;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.content .left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.right .header,
+.left .header {
+    text-align: center;
+}
+
+.right .header h2,
+.left .header h2 {
+    font-family: serif;
+    font-family: serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.right .header p:nth-child(1),
+.left .header p:nth-child(2) {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.right .header p:nth-child(2),
+.left .header p:nth-child(3) {
+    font-family: typewritter;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 2px solid var(--color-boarder);
+    border-bottom: 2px solid var(--color-boarder);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.right h2 {
+    font-family: serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.right .section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.section div:nth-child(2) img {
+    width: 100%;
+    border: 2px solid var(--color-boarder);
+}
